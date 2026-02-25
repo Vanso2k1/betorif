@@ -1,0 +1,358 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "how": "Cómo funciona",
+    "contact": "Contacto",
+    "cta": "Pedir presupuesto",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "whatsapp": "WhatsApp"
+  },
+
+  "home": {
+    "pill": "BETORIF SARL • Hormigón listo para usar",
+    "heroTitleA": "Hormigón listo para usar",
+    "heroTitleB": "para tus obras",
+    "heroDesc": "Producción constante, entrega planificada y seguimiento claro en obra. Un socio fiable en Nador y su región.",
+    "ctaQuote": "Solicitar presupuesto",
+    "ctaHow": "Cómo funciona",
+    "stats": {
+      "since": "Desde",
+      "production": "Producción 2025",
+      "plants": "Plantas",
+      "support": "Soporte"
+    },
+    "report": {
+      "label": "Ficha Técnica",
+      "title": "Estado operativo",
+      "subtitle": "Indicadores operativos (extractos).",
+      "ctaFast": "Presupuesto rápido",
+      "availability": "Disponibilidad 24/7 para estructurar proyectos",
+      "items": [
+        { "k": "Desde", "v": "2004" },
+        { "k": "Producción 2025", "v": "56 790 m³" },
+        { "k": "Plantas", "v": "2" },
+        { "k": "Hormigoneras", "v": "11" },
+        { "k": "Bombas", "v": "36m & 42m" },
+        { "k": "Zona", "v": "Nador y región" }
+      ]
+    },
+    "refs": {
+      "tag": "REFERENCIAS",
+      "title": "Están construyendo con nosotros",
+      "subtitle": "Público y privado • Grandes proyectos"
+    },
+    "process": {
+      "tag": "PROCESO",
+      "title": "¿Cómo funciona?",
+      "subtitle": "Un recorrido simple, claro y orientado a obra — con una planificación correcta.",
+      "panelTag": "ETAPAS",
+      "panelTitle": "Proceso de obra",
+      "panelDesc": "Haz clic en una etapa (auto-desplazamiento).",
+      "sys": "Sistema Operativo",
+      "hint": "Detalles técnicos",
+      "stepLabel": "Etapa",
+      "steps": [
+        {
+          "n": "01",
+          "t": "Solicitud de presupuesto",
+          "d": "Ciudad, volumen estimado, fecha deseada y restricciones de acceso (bomba si es necesario).",
+          "bullets": ["Respuesta rápida", "Preguntas de obra", "Con bomba / sin bomba"]
+        },
+        {
+          "n": "02",
+          "t": "Validación y planificación",
+          "d": "Confirmamos la solución técnica y organizamos una logística clara.",
+          "bullets": ["Confirmación técnica", "Franja de entrega", "Coordinación de acceso y ritmo"]
+        },
+        {
+          "n": "03",
+          "t": "Entrega y seguimiento",
+          "d": "Entrega en obra con seguimiento para asegurar el ritmo y los plazos.",
+          "bullets": ["Entrega planificada", "Seguimiento de obra", "Respeto de plazos"]
+        }
+      ]
+    },
+    "services": {
+      "tag": "Soluciones estructurales",
+      "title": "Nuestras áreas de especialización",
+      "subtitle": "Servicios pensados para el terreno: claridad, regularidad y planificación.",
+      "cards": [
+        { "title": "Hormigón listo para usar", "desc": "Fabricación según tus necesidades y especificaciones de obra.", "ctaOrder": "Orden", "ctaSpecs":"Ficha técnica" },
+        { "title": "Entrega planificada", "desc": "Organización logística y comunicación clara para cumplir los plazos.", "ctaOrder": "PLANIFICAR", "ctaSpecs":"Zona de acción" },
+        { "title": "Calidad y conformidad", "desc": "Regularidad y seguimiento adaptados a las exigencias de la obra.", "ctaOrder": "Certificados", "ctaSpecs":"Normas" },
+        { "title": "Bombeo (opcional)", "desc": "Soluciones de bombeo (36m & 42m) según disponibilidad y acceso." },
+        { "title": "Soporte en obra", "desc": "Acompañamiento y coordinación para asegurar planificación, acceso y ritmo." }
+      ],
+      "optionsTitle": "Servicio de bombeo",
+      "optionsDesc": "Brazos de 36m y 42m para alcanzar las zonas más complejas. Alto rendimiento para losas y muros.",
+      "reserveButton": "Reservar una bomba",
+      "supportTitle": "Soporte técnico",
+      "supportDesc": "Nuestros ingenieros le acompañan en la elección de los aditivos y en la preparación de los accesos a la obra.",
+      "contactButton": "Hablar con un experto",
+      "noPumpTitle": "Estándar",
+      "noPumpDesc": "Entrega planificada según restricciones de obra."
+    },
+    "trust": {
+      "tag": "CONFIANZA",
+      "title": "Confían en nosotros",
+      "subtitle": "Una relación en obra basada en fiabilidad, regularidad y seguimiento.",
+      "noteNum": "Calificación media",
+      "noteRate": "Fidelidad",
+      "ctaLineA": "¿Necesitas un presupuesto rápido?",
+      "ctaLineB": "(ciudad, volumen, fecha)",
+      "testimonials": [
+        { "name": "Cliente de obra", "role": "Proyecto residencial", "quote": "Entrega planificada y buena coordinación. Comunicación clara, obra segura." },
+        { "name": "Empresa de construcción", "role": "Infraestructuras", "quote": "Rapidez y fiabilidad. Se cumplen los plazos y el seguimiento es serio." },
+        { "name": "Promotor", "role": "Proyecto privado", "quote": "Calidad constante y buena organización. Experiencia profesional." }
+      ]
+    },
+    "position": {
+      "tag": "POSICIONAMIENTO",
+      "title": "Una empresa estructurada.",
+      "subtitle": "Organización, regularidad de producción y planificación — para reducir riesgos en obra.",
+      "cta": "Solicitar presupuesto →",
+      "cards": [
+        { "tag": "CALIDAD", "title": "Calidad controlada", "desc": "Fórmulas adaptadas, regularidad y seguimiento según obra." },
+        { "tag": "PLANIFICACIÓN", "title": "Entrega planificada", "desc": "Coordinación, comunicación clara y organización logística." },
+        { "tag": "CAPACIDAD", "title": "Medios confirmados", "desc": "Plantas, flota y equipos para producir de forma continua." },
+        { "tag": "SOPORTE", "title": "Soporte en obra", "desc": "Acompañamiento según acceso y ritmo." }
+      ]
+    },
+    "final": {
+      "tag": "PRESUPUESTO",
+      "title": "¿Necesitas un presupuesto rápido?",
+      "desc": "Ciudad, volumen estimado, fecha deseada — volvemos pronto con una estimación y una planificación."
+    }
+  },
+
+
+  "about": {
+    "hero": {
+      "badge": "SOBRE NOSOTROS",
+      "title": "BETORIF — Nuestro objetivo: tu satisfacción",
+      "subtitle": "Empresa especializada en hormigón preparado, con personal y medios para asegurar la calidad y cumplir los plazos de obra.",
+      "pills": ["Desde 2004", "Nador y región", "Entrega planificada", "Soporte en obra"],
+      "ctaQuote": "Pedir presupuesto",
+      "ctaWhatsapp": "WhatsApp",
+      "heroAlt": "Sobre BETORIF"
+    },
+    "identity": {
+      "badge": "FICHA",
+      "title": "Identidad de la empresa",
+      "subtitle": "Información general (del dossier de presentación).",
+      "companyTag": "BETORIF SARL",
+      "items": [
+        { "k": "Razón social", "v": "BETORIF SARL" },
+        { "k": "Forma jurídica", "v": "Sociedad de responsabilidad limitada" },
+        { "k": "Actividad", "v": "Fabricación de todo tipo de hormigón" },
+        { "k": "Fecha de creación", "v": "24/05/2004" },
+        { "k": "Capital social", "v": "1.500.000,00 MAD" },
+        { "k": "Gerente", "v": "Sr. ALLACHE Abderrachid" },
+        { "k": "Sede", "v": "Avenue Hassan II, edificio BMCE BANK, 5ª planta Nº17, Nador" },
+        { "k": "Teléfono", "v": "+212 6 61 30 87 88 / +212 6 65 29 33 14" },
+        { "k": "Email", "v": "info@betorif.ma" },
+        { "k": "Web", "v": "www.betorif.ma" }
+      ]
+    },
+    "stats": [
+      { "k": "Fundada", "v": "2004" },
+      { "k": "Capital social", "v": "1.500.000 MAD" },
+      { "k": "Plantas", "v": "2" },
+      { "k": "Bombas", "v": "36m y 42m" }
+    ],
+    "brochure": {
+      "title": "Presentación de la empresa",
+      "text": "Consulta nuestra brochure oficial para conocer servicios, equipos y referencias.",
+      "button": "Abrir en Google Drive"
+    },
+    "indicators": {
+      "badge": "INDICADORES",
+      "title": "Personal y producción",
+      "subtitle": "Referencias de capacidad (datos internos).",
+      "quoteCta": "Pedir presupuesto →",
+      "staffTitle": "Número de empleados",
+      "staffSubtitle": "Evolución anual.",
+      "productionTitle": "Producción (m³)",
+      "productionSubtitle": "Histórico (2014 → 2025).",
+      "productionSuffix": " m³"
+    },
+    "capacity": {
+      "badge": "CAPACIDADES",
+      "title": "Medios humanos y materiales",
+      "subtitle": "Organización, seguimiento y equipos adecuados para garantizar regularidad y plazos de obra.",
+      "humansTitle": "Equipo humano",
+      "materialsTitle": "Medios materiales",
+      "humans": [
+        "Coordinación operativa y planificación general",
+        "Gestión de calidad y seguimiento de obras",
+        "Soporte y asesoría técnica (Ingeniero)",
+        "Técnicos especializados (producción / control / seguimiento)",
+        "Jefes de obra y jefes de equipo",
+        "Comunicación con el cliente y seguimiento en obra"
+      ],
+      "materials": [
+        "02 plantas de hormigón",
+        "08 camiones hormigonera 10m³ + 03 camiones hormigonera 12m³",
+        "02 camiones tráiler 25m³",
+        "01 bomba de hormigón 36m",
+        "01 bomba de hormigón 42m",
+        "02 cargadoras",
+        "01 pick-up ~ 1.3T",
+        "05 vehículos comerciales",
+        "Puesto de soldadura + taller de mantenimiento",
+        "Flota y equipo: 22 conductores + almacenero + mecánico + electricista/soldador/chapista"
+      ]
+    },
+    "references": {
+      "badge": "REFERENCIAS",
+      "title": "Obras realizadas",
+      "subtitle": "Ejemplos de proyectos entregados (público y privado).",
+      "projects": [
+        "Viales — Cap de l’eau",
+        "Acondicionamiento del paseo marítimo de Saïdia",
+        "Proyecto social en Saïdia (3.050 apartamentos)",
+        "Villas turísticas (950 unidades)",
+        "Apartamentos turísticos en Saïdia (+180.000)",
+        "Escuelas, internados y centros educativos",
+        "Centro hospitalario en Saïdia",
+        "Kiada y municipio de Saïdia",
+        "Centro comercial en Saïdia (con OMRANE)",
+        "Estación depuradora de Saïdia",
+        "Cuatro estaciones de servicio en Saïdia",
+        "Centro cultural en Berkane"
+      ]
+    },
+    "gallery": {
+      "badge": "GALERÍA",
+      "title": "Fotos e instalaciones",
+      "subtitle": "Añade aquí fotos reales (planta, flota, obras).",
+      "altPrefix": "Galería"
+    },
+    "finalCta": {
+      "badge": "PRESUPUESTO",
+      "title": "Hablemos de tu obra.",
+      "subtitle": "Ciudad, volumen estimado, fecha deseada y accesos — respondemos rápido.",
+      "ctaQuote": "Pedir presupuesto",
+      "ctaWhatsapp": "WhatsApp"
+    }
+  },
+
+"how": {
+  "hero": {
+    "badge": "PROCESO",
+    "title": "¿Cómo funciona?",
+    "subtitle": "Un proceso simple y claro — desde la solicitud hasta la entrega planificada.",
+    "alt": "Proceso BETORIF"
+  },
+  "steps": [
+    {
+      "title": "Solicitud de presupuesto",
+      "desc": "Ciudad, volumen estimado, fecha deseada y condiciones de acceso (bomba si hace falta)."
+    },
+    {
+      "title": "Validación y planificación",
+      "desc": "Confirmación técnica y planificación logística clara."
+    },
+    {
+      "title": "Producción en planta",
+      "desc": "Producción controlada y regular según las exigencias de la obra."
+    },
+    {
+      "title": "Entrega en obra",
+      "desc": "Entrega planificada y seguimiento para asegurar ritmo y plazos."
+    }
+  ],
+  "active": "Viendo ahora",
+  "stepLabel": "Paso",
+  "ctaLine": "Para acelerar el presupuesto: ciudad, volumen, fecha y acceso.",
+  "ctaQuote": "Solicitar presupuesto",
+  "faq": {
+    "badge": "FAQ",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas rápidas a las preguntas más comunes.",
+    "pill": "Soporte en obra",
+    "items": [
+      {
+        "q": "¿Cómo obtener un presupuesto rápido?",
+        "a": "Indica la ciudad, volumen estimado (m³), fecha y condiciones de acceso. Si necesitas bomba, menciónalo."
+      },
+      {
+        "q": "¿Qué se necesita para planificar la entrega?",
+        "a": "Dirección exacta, acceso a la obra, franja horaria deseada y un contacto en el sitio."
+      },
+      {
+        "q": "¿Ofrecen soporte técnico en obra?",
+        "a": "Sí, según la necesidad. Te orientamos sobre la información y las limitaciones a tener en cuenta."
+      },
+      {
+        "q": "¿Qué tipos de proyectos cubren?",
+        "a": "Residencial, infraestructuras y proyectos públicos/privados con planificación clara."
+      }
+    ]
+  },
+  "side": {
+    "badge": "PRESUPUESTO",
+    "title": "¿Necesitas un presupuesto rápido?",
+    "desc": "Prepara: ciudad, volumen (m³), fecha deseada y acceso. Si hace falta, indica bomba.",
+    "tipBadge": "TIP",
+    "tip": "Cuanto más precisa sea la solicitud, más rápida será la respuesta."
+  }
+},
+
+
+"contact": {
+  "hero": {
+    "badge": "PRESUPUESTO",
+    "title": "Solicitar presupuesto",
+    "subtitle": "Indique los datos esenciales (ciudad, volumen estimado, fecha). Nuestro equipo responderá rápidamente para confirmar y planificar la entrega.",
+    "badges": ["Respuesta rápida", "Entrega programada", "Soporte en obra"]
+  },
+  "form": {
+    "title": "Formulario de presupuesto",
+    "subtitle": "Complete en 1 minuto. Cuanto más preciso, más rápida la respuesta.",
+    "free": "Presupuesto gratuito",
+    "name": "Nombre / Empresa",
+    "namePlaceholder": "Su nombre",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+212 ...",
+    "city": "Ciudad / Obra",
+    "cityPlaceholder": "Nador, Selouane...",
+    "type": "Tipo de proyecto",
+    "volume": "Volumen estimado (m³)",
+    "optional": "opcional",
+    "date": "Fecha deseada",
+    "details": "Detalles",
+    "detailsHint": "acceso, bomba, restricciones",
+    "detailsPlaceholder": "Describa su necesidad…",
+    "consent": "Al enviar, acepta ser contactado para el presupuesto.",
+    "submit": "Enviar solicitud"
+  },
+  "success": {
+    "title": "Solicitud enviada ✅",
+    "desc": "Gracias. Nuestro equipo se pondrá en contacto pronto para confirmar los detalles.",
+    "cta": "WhatsApp ahora"
+  },
+  "side": {
+    "title": "Contacto directo",
+    "subtitle": "Para acelerar: envíe la información por WhatsApp.",
+    "maps": "Abrir en Maps"
+  },
+  "chantierTypes": [
+    "Cimientos",
+    "Losa",
+    "Columnas / muros",
+    "Vialidad / urbanización",
+    "Proyecto residencial",
+    "Proyecto público / privado",
+    "Otro"
+  ]
+},
+
+"indicators": {
+  "collapseTitle": "Indicadores",
+  "collapseHint": "Ver indicadores"
+}
+
+}

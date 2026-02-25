@@ -1,0 +1,368 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "how": "Comment ça marche",
+    "contact": "Contact",
+    "cta": "Demander un devis",
+    "menu": "Menu",
+    "close": "Fermer",
+    "whatsapp": "WhatsApp"
+  },
+
+  "home": {
+    "pill": "BETORIF SARL • Béton prêt à l’emploi",
+    "heroTitleA": "Béton prêt à l’emploi",
+    "heroTitleB": "pour vos chantiers",
+    "heroDesc": "Production régulière, livraison planifiée et suivi chantier clair. Un partenaire fiable à Nador et dans la région.",
+    "ctaQuote": "Demander un devis",
+    "ctaHow": "Comment ça marche",
+
+    "stats": {
+      "since": "Depuis",
+      "production": "Production 2025",
+      "plants": "Centrales",
+      "support": "Support"
+    },
+
+    "report": {
+      "label": "FICHE TECHNIQUE",
+      "title": "Status Opérationnel",
+      "subtitle": "Repères opérationnels (extraits).",
+      "ctaFast": "Devis rapide",
+      "Disponibilité": "Objectif : qualité, fiabilité et respect des délais chantier.",
+      "items": [
+        { "k": "Depuis", "v": "2004" },
+        { "k": "Production 2025", "v": "56 790 m³" },
+        { "k": "Centrales", "v": "2" },
+        { "k": "Bétonnières", "v": "11" },
+        { "k": "Pompes", "v": "36m & 42m" },
+        { "k": "Zone", "v": "Nador & région" }
+      ]
+    },
+
+    "refs": {
+      "tag": "RÉFÉRENCES",
+      "title": "Ils nous font confiance",
+      "subtitle": "Public & privé • Projets majeurs"
+    },
+
+    "process": {
+      "tag": "PROCESS",
+      "title": "Comment ça marche ?",
+      "subtitle": "Un parcours simple, clair, orienté chantier — avec une planification propre.",
+      "panelTag": "ÉTAPES",
+      "panelTitle": "Process chantier",
+      "panelDesc": "Cliquez sur une étape (auto-défilement).",
+      "sys": "Système Opérationnel",
+      "hint": "Détails techniques",
+      "stepLabel": "Étape",
+      "steps": [
+        {
+          "n": "01",
+          "t": "Demande de devis",
+          "d": "Ville, volume estimé, date souhaitée et contraintes d’accès (pompe si besoin).",
+          "bullets": ["Réponse rapide", "Questions chantier", "Besoin pompe / sans pompe"]
+        },
+        {
+          "n": "02",
+          "t": "Validation & planification",
+          "d": "On confirme la solution technique et on cale une organisation logistique claire.",
+          "bullets": ["Confirmation technique", "Créneau de livraison", "Coordination accès & cadence"]
+        },
+        {
+          "n": "03",
+          "t": "Livraison & suivi",
+          "d": "Livraison sur chantier avec suivi pour sécuriser la cadence et les délais.",
+          "bullets": ["Livraison planifiée", "Suivi chantier", "Respect des délais"]
+        }
+      ]
+    },
+
+    "services": {
+      "tag": "Solutions structurelles",
+      "title": "Nos domaines d'expertise",
+      "subtitle": "Des services pensés pour le terrain : clarté, régularité et planification.",
+      "cards": [
+        { "title": "Béton prêt à l’emploi", "desc": "Fabrication selon vos besoins et spécifications chantier." },
+        { "title": "Livraison planifiée", "desc": "Organisation logistique et communication claire pour respecter les délais." },
+        { "title": "Qualité & conformité", "desc": "Régularité et suivi adaptés aux exigences du chantier." },
+        { "title": "Pompage (option)", "desc": "Solutions de pompage (36m & 42m) selon disponibilité et contraintes d’accès." },
+        { "title": "Support chantier", "desc": "Accompagnement et coordination pour sécuriser planning, accès et cadence." }
+      ],
+      "more": "En savoir plus →",
+      "optionsTitle": "Service de pompage",
+      "optionsDesc": "Bras de 36 m et 42 m pour atteindre les zones les plus complexes. Haute performance pour dalles et murs.",
+      "reserveButton": "Réservez Une Pompe",
+      "withPumpTitle": "Accès difficiles",
+      "withPumpDesc": "Pour faciliter la mise en œuvre selon le site.",
+      "noPumpTag": "SANS POMPE",
+      "noPumpTitle": "Standard",
+      "noPumpDesc": "Livraison planifiée selon contraintes chantier."
+    },
+
+    "trust": {
+      "tag": "CONFIANCE",
+      "title": "Ils nous font confiance",
+      "subtitle": "Une relation chantier basée sur la fiabilité, la régularité et le suivi.",
+      "ctaLineA": "Besoin d’un devis rapide ?",
+      "ctaLineB": "(ville, volume, date)",
+      "testimonials": [
+        { "name": "Client chantier", "role": "Projet résidentiel", "quote": "Livraison planifiée et bonne coordination. Communication claire, chantier sécurisé." },
+        { "name": "Entreprise BTP", "role": "Infrastructures", "quote": "Réactivité et fiabilité. Les délais sont tenus et le suivi est sérieux." },
+        { "name": "Maître d’ouvrage", "role": "Projet privé", "quote": "Qualité régulière et organisation solide. Expérience professionnelle." }
+      ]
+    },
+
+    "position": {
+      "tag": "POSITIONNEMENT",
+      "title": "Une entreprise structurée.",
+      "subtitle": "Organisation, régularité de production et planification — pour réduire les risques chantier.",
+      "cta": "Demander un devis →",
+      "cards": [
+        { "tag": "QUALITÉ", "title": "Qualité maîtrisée", "desc": "Formules adaptées, régularité, et suivi selon chantier." },
+        { "tag": "PLANNING", "title": "Livraison planifiée", "desc": "Coordination, communication claire et organisation logistique." },
+        { "tag": "CAPACITÉ", "title": "Moyens confirmés", "desc": "Centrales, flotte et équipements pour produire en continu." },
+        { "tag": "SUPPORT", "title": "Support chantier", "desc": "Accompagnement selon contraintes d’accès et cadence." }
+      ]
+    },
+
+    "final": {
+      "tag": "DEVIS",
+      "title": "Besoin d’un devis rapide ?",
+      "desc": "Ville, volume estimé, date souhaitée — on revient rapidement avec une estimation et une planification."
+    }
+  },
+
+
+  "about": {
+    "hero": {
+      "badge": "À PROPOS",
+      "title": "BETORIF — Notre objectif : votre satisfaction",
+      "subtitle": "Une entreprise spécialisée dans le béton prêt à l’emploi, avec des moyens humains et matériels pour sécuriser la qualité et le respect des délais chantier.",
+      "pills": ["Depuis 2004", "Nador & région", "Livraison planifiée", "Support chantier"],
+      "ctaQuote": "Demander un devis",
+      "ctaWhatsapp": "WhatsApp",
+      "heroAlt": "À propos BETORIF"
+    },
+    "identity": {
+      "badge": "FICHE",
+      "title": "Identité de l’entreprise",
+      "subtitle": "Informations générales (extrait du dossier de présentation).",
+      "companyTag": "BETORIF SARL",
+      "items": [
+        { "k": "Raison sociale", "v": "BETORIF SARL" },
+        { "k": "Forme", "v": "Société à responsabilité limitée" },
+        { "k": "Activité", "v": "Fabrication de tous type de béton" },
+        { "k": "Date de création", "v": "24/05/2004" },
+        { "k": "Capital social", "v": "1 500 000,00 DHS" },
+        { "k": "Gérant", "v": "M. ALLACHE Abderrachid" },
+        { "k": "Siège", "v": "Avenue Hassan II, immeuble BMCE BANK, 5ème étage N°17, Nador" },
+        { "k": "Téléphone", "v": "+212 6 61 30 87 88 / +212 6 65 29 33 14" },
+        { "k": "Email", "v": "info@betorif.ma" },
+        { "k": "Site", "v": "www.betorif.ma" }
+      ]
+    },
+    "stats": [
+      { "k": "Fondée", "v": "2004" },
+      { "k": "Capital social", "v": "1 500 000 DHS" },
+      { "k": "Centrales", "v": "2" },
+      { "k": "Pompes", "v": "36m & 42m" }
+    ],
+    "brochure": {
+      "title": "Présentation de l’entreprise",
+      "text": "Consultez notre brochure officielle pour découvrir nos services, équipements et références.",
+      "button": "Ouvrir dans Google Drive"
+    },
+    "indicators": {
+      "badge": "INDICATEURS",
+      "title": "Effectif & production",
+      "subtitle": "Repères de capacité (données internes).",
+      "quoteCta": "Demander un devis →",
+      "staffTitle": "Nombre d’effectif",
+      "staffSubtitle": "Évolution annuelle.",
+      "productionTitle": "Chiffre de production (m³)",
+      "productionSubtitle": "Historique (2014 → 2025).",
+      "productionSuffix": " m³"
+    },
+    "capacity": {
+      "badge": "CAPACITÉS",
+      "title": "Moyens humains & matériels",
+      "subtitle": "Organisation, suivi et équipements adaptés pour garantir régularité et délais chantier.",
+      "humansTitle": "Moyens humains",
+      "materialsTitle": "Moyens matériels",
+      "humans": [
+        "Coordination opérationnelle et planning global",
+        "Gestion assurance qualité et suivi des ouvrages",
+        "Soutien & conseil techniques (Ingénieur)",
+        "Techniciens spécialisés (production / contrôle / suivi)",
+        "Chefs de chantier & chefs d’équipe",
+        "Communication client & suivi chantier"
+      ],
+      "materials": [
+        "02 Centrales à béton",
+        "08 camions bétonnières 10m³ + 03 camions bétonnières 12m³",
+        "02 camions semi-remorque 25m³",
+        "01 pompe à béton 36m",
+        "01 pompe à béton 42m",
+        "02 chargeuses",
+        "01 véhicule Pick-up ~ 1.3T",
+        "05 véhicules commerciaux",
+        "Poste soudure + atelier maintenance",
+        "Parc & équipe : 22 chauffeurs + magasinier + mécanicien + électricien/soudeur/tôlier"
+      ]
+    },
+    "references": {
+      "badge": "RÉFÉRENCES",
+      "title": "Ouvrages réalisés",
+      "subtitle": "Exemples de projets livrés (public & privé).",
+      "projects": [
+        "Voirie Cap de l’eau",
+        "Aménagement de la corniche de Saïdia",
+        "Projet social à Saïdia (3050 appartements)",
+        "Villas touristiques (950 unités)",
+        "Appartements touristiques à Saïdia (+180 000)",
+        "Écoles, internats, centres d’éducation",
+        "Centre hospitalier à Saïdia",
+        "Kiada & municipalité de Saïdia",
+        "Centre commercial à Saïdia (projet avec OMRANE)",
+        "Station d’épuration de Saïdia",
+        "Quatre stations de service à Saïdia",
+        "Centre de culture à Berkane"
+      ]
+    },
+    "gallery": {
+      "badge": "GALERIE",
+      "title": "Photos & installations",
+      "subtitle": "Ajoutez ici les photos réelles (centrale, flotte, chantier).",
+      "altPrefix": "Galerie"
+    },
+    "finalCta": {
+      "badge": "DEVIS",
+      "title": "Parlons de votre chantier.",
+      "subtitle": "Ville, volume estimé, date souhaitée et contraintes d’accès — on vous répond rapidement.",
+      "ctaQuote": "Demander un devis",
+      "ctaWhatsapp": "WhatsApp"
+    }
+  },
+
+
+
+"how": {
+  "hero": {
+    "badge": "PROCESS",
+    "title": "Comment ça marche ?",
+    "subtitle": "Un parcours simple, clair et orienté chantier — de la demande de devis à la livraison planifiée.",
+    "alt": "Process BETORIF"
+  },
+  "steps": [
+    {
+      "title": "Demande de devis",
+      "desc": "Ville, volume estimé, date souhaitée et contraintes d’accès (pompe si besoin)."
+    },
+    {
+      "title": "Validation & planification",
+      "desc": "Confirmation technique et organisation logistique avec communication claire."
+    },
+    {
+      "title": "Production en centrale",
+      "desc": "Fabrication maîtrisée et régularité selon les exigences du chantier."
+    },
+    {
+      "title": "Livraison sur chantier",
+      "desc": "Livraison planifiée et suivi pour sécuriser la cadence et les délais."
+    }
+  ],
+  "active": "En cours de lecture",
+  "stepLabel": "Étape",
+  "ctaLine": "Pour accélérer le devis : ville, volume, date et accès.",
+  "ctaQuote": "Demander un devis",
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Réponses rapides aux questions les plus courantes.",
+    "pill": "Support chantier",
+    "items": [
+      {
+        "q": "Comment obtenir un devis rapidement ?",
+        "a": "Indiquez la ville du chantier, un volume estimé (m³), la date souhaitée et les contraintes d’accès. Si vous pensez avoir besoin d’une pompe, précisez-le."
+      },
+      {
+        "q": "Quels éléments sont nécessaires pour planifier la livraison ?",
+        "a": "Adresse exacte, accès chantier, créneau souhaité, cadence prévue, et contact sur site. Cela aide à organiser la logistique et respecter les délais."
+      },
+      {
+        "q": "Proposez-vous un support technique chantier ?",
+        "a": "Oui, selon le besoin. Notre équipe vous oriente sur les infos à fournir et les contraintes à anticiper (accès, pompage, organisation)."
+      },
+      {
+        "q": "Quels types de projets livrez-vous ?",
+        "a": "Résidentiel, infrastructures, aménagements, chantiers publics et privés. L’essentiel : une planification claire pour sécuriser la cadence."
+      }
+    ]
+  },
+  "side": {
+    "badge": "DEVIS",
+    "title": "Besoin d’un devis rapide ?",
+    "desc": "Préparez : ville, volume (m³), date souhaitée, contraintes d’accès. Si besoin, précisez pompe.",
+    "tipBadge": "ASTUCE",
+    "tip": "Plus la demande est précise, plus la réponse est rapide."
+  }
+},
+
+
+
+"contact": {
+  "hero": {
+    "badge": "DEVIS",
+    "title": "Demander un devis",
+    "subtitle": "Donnez les infos essentielles (ville, volume estimé, date). Notre équipe vous répond rapidement pour confirmer et planifier la livraison.",
+    "badges": ["Réponse rapide", "Livraison planifiée", "Support chantier"]
+  },
+  "form": {
+    "title": "Formulaire de devis",
+    "subtitle": "Remplissez en 1 minute. Plus c’est précis, plus la réponse est rapide.",
+    "free": "Devis gratuit",
+    "name": "Nom / Société",
+    "namePlaceholder": "Votre nom",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+212 ...",
+    "city": "Ville / Chantier",
+    "cityPlaceholder": "Nador, Selouane...",
+    "type": "Type de chantier",
+    "volume": "Volume estimé (m³)",
+    "optional": "optionnel",
+    "date": "Date souhaitée",
+    "details": "Détails",
+    "detailsHint": "accès, pompe, contraintes",
+    "detailsPlaceholder": "Décrivez votre besoin…",
+    "consent": "En envoyant, vous acceptez d’être contacté pour le devis.",
+    "submit": "Envoyer la demande"
+  },
+  "success": {
+    "title": "Demande envoyée ✅",
+    "desc": "Merci. Notre équipe vous contactera rapidement pour confirmer les détails.",
+    "cta": "WhatsApp maintenant"
+  },
+  "side": {
+    "title": "Contact direct",
+    "subtitle": "Pour accélérer : envoyez les infos sur WhatsApp.",
+    "maps": "Ouvrir sur Maps"
+  },
+  "chantierTypes": [
+    "Fondations",
+    "Dalle",
+    "Poteaux / voiles",
+    "Voirie / aménagement",
+    "Projet résidentiel",
+    "Projet public / privé",
+    "Autre"
+  ]
+},
+
+"indicators": {
+  "collapseTitle": "Indicateurs",
+  "collapseHint": "Voir les indicateurs"
+}
+
+}

@@ -1,0 +1,177 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------
+   Theme tokens
+----------------------------- */
+:root {
+  --betorif-orange: 234 88 12; /* orange-500-ish */
+  --ink: 2 6 23; /* slate-950-ish */
+
+  /* Fonts injected via next/font in layout.tsx */
+  --font-montserrat: ui-sans-serif;
+  --font-poppins: ui-sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden; /* 🔥 prevents mobile horizontal scroll */
+}
+
+/* Better tap behavior on mobile */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Media never overflow */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fonts helpers */
+.font-body {
+  font-family: var(--font-poppins);
+}
+
+.font-display {
+  font-family: var(--font-montserrat);
+}
+
+/* Nice selection + focus */
+::selection {
+  background: rgba(249, 115, 22, 0.25);
+}
+
+:focus-visible {
+  outline: 2px solid rgba(249, 115, 22, 0.55);
+  outline-offset: 2px;
+}
+
+/* -----------------------------
+   Tailwind utilities
+----------------------------- */
+@layer utilities {
+  .text-betorif-orange {
+    color: rgb(var(--betorif-orange));
+  }
+  .bg-betorif-orange {
+    background-color: rgb(var(--betorif-orange));
+  }
+  .border-betorif-orange {
+    border-color: rgb(var(--betorif-orange));
+  }
+
+  /* consistent padding + container */
+  .section-pad {
+    @apply px-4 sm:px-6 lg:px-10;
+  }
+  .container-max {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .glass {
+    @apply bg-white/10 backdrop-blur border border-white/15;
+  }
+}
+
+/* -----------------------------
+   Glass nav (safe)
+   IMPORTANT: add `relative overflow-hidden`
+   on the element that uses .glass-nav
+----------------------------- */
+.glass-nav {
+  position: relative; /* ✅ ensures ::before is contained */
+  overflow: hidden;   /* ✅ prevents noise overlay overflow */
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.55),
+    rgba(10, 10, 10, 0.30)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.glass-nav::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E");
+  opacity: 0.16; /* slightly lower = more premium */
+}
+
+/* -----------------------------
+   Animations (keep yours)
+----------------------------- */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeUp {
+  animation: fadeUp 700ms ease-out both;
+}
+
+@keyframes heroIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+.animate-heroIn {
+  animation: heroIn 700ms ease-out both;
+}
+
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.04);
+  }
+}
+.animate-kenburns {
+  animation: kenburns 7s ease-out both;
+}
+
+/* Optional: stabilize scrollbar layout */
+@supports (scrollbar-gutter: stable) {
+  html {
+    scrollbar-gutter: stable;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}

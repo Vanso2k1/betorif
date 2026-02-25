@@ -1,0 +1,359 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "how": "How it works",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "menu": "Menu",
+    "close": "Close",
+    "whatsapp": "WhatsApp"
+  },
+
+  "home": {
+    "pill": "BETORIF SARL • Ready-mix concrete",
+    "heroTitleA": "Ready-mix concrete",
+    "heroTitleB": "for your projects",
+    "heroDesc": "Consistent production, scheduled delivery, and clear on-site follow-up. A reliable partner in Nador and the region.",
+    "ctaQuote": "Request a quote",
+    "ctaHow": "How it works",
+    "stats": {
+      "since": "Since",
+      "production": "2025 Output",
+      "plants": "Plants",
+      "support": "Support"
+    },
+    "report": {
+      "label": "Technical sheet",
+      "title": "Operational status",
+      "subtitle": "Operational highlights (excerpt).",
+      "ctaFast": "Quick quote",
+      "availability": "24/7 availability for structural projects",
+      "items": [
+        { "k": "Since", "v": "2004" },
+        { "k": "2025 Output", "v": "56 790 m³" },
+        { "k": "Plants", "v": "2" },
+        { "k": "Mixer trucks", "v": "11" },
+        { "k": "Pumps", "v": "36m & 42m" },
+        { "k": "Area", "v": "Nador & region" }
+      ]
+    },
+    "refs": {
+      "tag": "PARTNERS",
+      "title": "They build with us",
+      "subtitle": "Public & private • Major projects"
+    },
+    "process": {
+      "tag": "PROCESS",
+      "title": "How does it work?",
+      "subtitle": "A simple, clear, site-focused flow — with proper planning.",
+      "panelTag": "STEPS",
+      "panelTitle": "On-site process",
+      "panelDesc": "Click a step (auto scroll).",
+      "sys": "Operational System",
+      "hint": "Technical details",
+      "stepLabel": "Step",
+      "steps": [
+        {
+          "n": "01",
+          "t": "Quote request",
+          "d": "City, estimated volume, desired date, and access constraints (pump if needed).",
+          "bullets": ["Fast response", "Site questions", "With pump / without pump"]
+        },
+        {
+          "n": "02",
+          "t": "Validation & planning",
+          "d": "We confirm the technical solution and set a clear logistics plan.",
+          "bullets": ["Technical confirmation", "Delivery slot", "Access & pace coordination"]
+        },
+        {
+          "n": "03",
+          "t": "Delivery & follow-up",
+          "d": "On-site delivery with follow-up to secure pace and deadlines.",
+          "bullets": ["Scheduled delivery", "On-site follow-up", "Deadline compliance"]
+        }
+      ]
+    },
+    "services": {
+      "tag": "Structural Solutions",
+      "title": "Our Areas of Expertise",
+      "subtitle": "Built for the field: clarity, consistency, and planning.",
+      "cards": [
+        { "title": "Ready-mix concrete", "desc": "Produced to your needs and on-site specifications.", "ctaOrder": "Order", "ctaSpecs": "Technical sheet" },
+        { "title": "Scheduled delivery", "desc": "Logistics organization and clear communication to meet deadlines.", "ctaOrder": "Schedule", "ctaSpecs": "Service area"  },
+        { "title": "Quality & compliance", "desc": "Consistency and follow-up aligned with on-site requirements.", "ctaOrder": "Certificates", "ctaSpecs": "Standards"  },
+        { "title": "Pumping (optional)", "desc": "Pumping solutions (36m & 42m) depending on availability and access." },
+        { "title": "On-site support", "desc": "Support and coordination to secure planning, access, and pace." }
+      ],
+      "optionsTitle": "Pumping Service",
+      "optionsDesc": "36m and 42m boom arms to reach the most complex areas. High performance for slabs and walls.",
+      "reserveButton": "Book a pump",
+      "supportTitle": "Technical Support",
+      "supportDesc": "Our engineers assist you in selecting admixtures and preparing site access.",
+      "contactButton": "Speak with an expert",
+      "noPumpTitle": "Standard",
+      "noPumpDesc": "Scheduled delivery based on site constraints."
+    },
+    "trust": {
+      "tag": "TRUST",
+      "title": "Trusted by",
+      "subtitle": "A site relationship built on reliability, consistency, and follow-up.",
+      "noteNum": "Average Rating",
+      "noteRate": "Customer Loyalty",
+      "ctaLineA": "Need a quick quote?",
+      "ctaLineB": "(city, volume, date)",
+      "testimonials": [
+        { "name": "Site client", "role": "Residential project", "quote": "Planned delivery and solid coordination. Clear communication, safe site." },
+        { "name": "Construction company", "role": "Infrastructure", "quote": "Responsive and reliable. Deadlines are met and follow-up is serious." },
+        { "name": "Owner", "role": "Private project", "quote": "Consistent quality and strong organization. Professional experience." }
+      ]
+    },
+    "position": {
+      "tag": "POSITIONING",
+      "title": "A structured company.",
+      "subtitle": "Organization, consistent output, and planning — to reduce on-site risk.",
+      "cta": "Request a quote →",
+      "cards": [
+        { "tag": "QUALITY", "title": "Controlled quality", "desc": "Adapted mixes, consistency, and follow-up depending on the site." },
+        { "tag": "PLANNING", "title": "Scheduled delivery", "desc": "Coordination, clear communication, and logistics organization." },
+        { "tag": "CAPACITY", "title": "Proven resources", "desc": "Plants, fleet, and equipment to produce continuously." },
+        { "tag": "SUPPORT", "title": "On-site support", "desc": "Support depending on access constraints and pace." }
+      ]
+    },
+    "final": {
+      "tag": "QUOTE",
+      "title": "Need a quick quote?",
+      "desc": "City, estimated volume, desired date — we’ll get back quickly with an estimate and a plan."
+    }
+  },
+
+  
+  "about": {
+    "hero": {
+      "badge": "ABOUT",
+      "title": "BETORIF — Our goal: your satisfaction",
+      "subtitle": "A company specialized in ready-mix concrete, with the people and equipment to ensure quality and meet site deadlines.",
+      "pills": ["Since 2004", "Nador & region", "Planned delivery", "On-site support"],
+      "ctaQuote": "Request a quote",
+      "ctaWhatsapp": "WhatsApp",
+      "heroAlt": "About BETORIF"
+    },
+    "identity": {
+      "badge": "PROFILE",
+      "title": "Company identity",
+      "subtitle": "General information (from the presentation file).",
+      "companyTag": "BETORIF SARL",
+      "items": [
+        { "k": "Legal name", "v": "BETORIF SARL" },
+        { "k": "Company type", "v": "Limited liability company" },
+        { "k": "Activity", "v": "Manufacturing of all types of concrete" },
+        { "k": "Founded", "v": "24/05/2004" },
+        { "k": "Share capital", "v": "1,500,000.00 MAD" },
+        { "k": "Manager", "v": "Mr. ALLACHE Abderrachid" },
+        { "k": "Head office", "v": "Avenue Hassan II, BMCE BANK building, 5th floor No.17, Nador" },
+        { "k": "Phone", "v": "+212 6 61 30 87 88 / +212 6 65 29 33 14" },
+        { "k": "Email", "v": "info@betorif.ma" },
+        { "k": "Website", "v": "www.betorif.ma" }
+      ]
+    },
+    "stats": [
+      { "k": "Founded", "v": "2004" },
+      { "k": "Share capital", "v": "1,500,000 MAD" },
+      { "k": "Batching plants", "v": "2" },
+      { "k": "Pumps", "v": "36m & 42m" }
+    ],
+    "brochure": {
+      "title": "Company brochure",
+      "text": "View our official brochure to discover our services, equipment, and references.",
+      "button": "Open in Google Drive"
+    },
+    "indicators": {
+      "badge": "INDICATORS",
+      "title": "Workforce & production",
+      "subtitle": "Capacity benchmarks (internal data).",
+      "quoteCta": "Request a quote →",
+      "staffTitle": "Workforce",
+      "staffSubtitle": "Yearly evolution.",
+      "productionTitle": "Production volume (m³)",
+      "productionSubtitle": "History (2014 → 2025).",
+      "productionSuffix": " m³"
+    },
+    "capacity": {
+      "badge": "CAPABILITIES",
+      "title": "People & equipment",
+      "subtitle": "Organization, monitoring, and suitable equipment to ensure consistency and meet site timelines.",
+      "humansTitle": "Human resources",
+      "materialsTitle": "Equipment",
+      "humans": [
+        "Operational coordination and overall scheduling",
+        "Quality assurance management and works monitoring",
+        "Technical support & advice (Engineer)",
+        "Specialized technicians (production / control / monitoring)",
+        "Site supervisors & team leaders",
+        "Customer communication & site follow-up"
+      ],
+      "materials": [
+        "02 concrete batching plants",
+        "08 mixer trucks 10m³ + 03 mixer trucks 12m³",
+        "02 semi-trailer trucks 25m³",
+        "01 concrete pump 36m",
+        "01 concrete pump 42m",
+        "02 loaders",
+        "01 pick-up vehicle ~ 1.3T",
+        "05 commercial vehicles",
+        "Welding station + maintenance workshop",
+        "Fleet & team: 22 drivers + storekeeper + mechanic + electrician/welder/bodyworker"
+      ]
+    },
+    "references": {
+      "badge": "REFERENCES",
+      "title": "Completed projects",
+      "subtitle": "Examples of delivered projects (public & private).",
+      "projects": [
+        "Road works — Cap de l’eau",
+        "Saïdia corniche development",
+        "Social housing project in Saïdia (3,050 apartments)",
+        "Touristic villas (950 units)",
+        "Touristic apartments in Saïdia (+180,000)",
+        "Schools, boarding schools, education centers",
+        "Hospital center in Saïdia",
+        "Kiada & municipality of Saïdia",
+        "Shopping center in Saïdia (project with OMRANE)",
+        "Saïdia wastewater treatment plant",
+        "Four service stations in Saïdia",
+        "Cultural center in Berkane"
+      ]
+    },
+    "gallery": {
+      "badge": "GALLERY",
+      "title": "Photos & facilities",
+      "subtitle": "Add real photos here (plant, fleet, worksites).",
+      "altPrefix": "Gallery"
+    },
+    "finalCta": {
+      "badge": "QUOTE",
+      "title": "Let’s talk about your project.",
+      "subtitle": "City, estimated volume, desired date, and access constraints — we’ll reply quickly.",
+      "ctaQuote": "Request a quote",
+      "ctaWhatsapp": "WhatsApp"
+    }
+  },
+
+
+"how": {
+  "hero": {
+    "badge": "PROCESS",
+    "title": "How it works",
+    "subtitle": "A simple, clear construction-oriented flow — from quote request to planned delivery.",
+    "alt": "BETORIF process"
+  },
+  "steps": [
+    {
+      "title": "Quote request",
+      "desc": "City, estimated volume, desired date and access constraints (pump if needed)."
+    },
+    {
+      "title": "Validation & planning",
+      "desc": "Technical confirmation and clear logistical planning."
+    },
+    {
+      "title": "Plant production",
+      "desc": "Controlled production and consistency according to site requirements."
+    },
+    {
+      "title": "On-site delivery",
+      "desc": "Planned delivery with follow-up to secure pace and deadlines."
+    }
+  ],
+  "active": "Currently viewing",
+  "stepLabel": "Step",
+  "ctaLine": "To speed up your quote: city, volume, date and access.",
+  "ctaQuote": "Request a quote",
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers to the most common questions.",
+    "pill": "On-site support",
+    "items": [
+      {
+        "q": "How can I get a quote quickly?",
+        "a": "Share the city, estimated volume (m³), desired date and access constraints. If you may need a pump, mention it."
+      },
+      {
+        "q": "What do you need to plan the delivery?",
+        "a": "Exact address, site access, preferred time slot, expected pace, and a contact person on site."
+      },
+      {
+        "q": "Do you provide technical support on site?",
+        "a": "Yes, depending on the need. We guide you on what to provide and what constraints to anticipate."
+      },
+      {
+        "q": "What types of projects do you deliver to?",
+        "a": "Residential, infrastructure, planning works, and public/private projects — with clear planning to secure pace."
+      }
+    ]
+  },
+  "side": {
+    "badge": "QUOTE",
+    "title": "Need a quick quote?",
+    "desc": "Prepare: city, volume (m³), desired date and access constraints. If needed, mention pump.",
+    "tipBadge": "TIP",
+    "tip": "The more precise the request, the faster the response."
+  }
+},
+
+
+"contact": {
+  "hero": {
+    "badge": "QUOTE",
+    "title": "Request a quote",
+    "subtitle": "Provide the essential details (city, estimated volume, date). Our team will respond quickly to confirm and schedule delivery.",
+    "badges": ["Fast response", "Scheduled delivery", "On-site support"]
+  },
+  "form": {
+    "title": "Quote form",
+    "subtitle": "Fill it in 1 minute. The more precise it is, the faster we respond.",
+    "free": "Free quote",
+    "name": "Name / Company",
+    "namePlaceholder": "Your name",
+    "phone": "Phone",
+    "phonePlaceholder": "+212 ...",
+    "city": "City / Site",
+    "cityPlaceholder": "Nador, Selouane...",
+    "type": "Project type",
+    "volume": "Estimated volume (m³)",
+    "optional": "optional",
+    "date": "Desired date",
+    "details": "Details",
+    "detailsHint": "access, pump, constraints",
+    "detailsPlaceholder": "Describe your needs…",
+    "consent": "By submitting, you agree to be contacted regarding your quote.",
+    "submit": "Send request"
+  },
+  "success": {
+    "title": "Request sent ✅",
+    "desc": "Thank you. Our team will contact you shortly to confirm the details.",
+    "cta": "WhatsApp now"
+  },
+  "side": {
+    "title": "Direct contact",
+    "subtitle": "To speed things up: send your details via WhatsApp.",
+    "maps": "Open in Maps"
+  },
+  "chantierTypes": [
+    "Foundations",
+    "Slab",
+    "Columns / walls",
+    "Roadworks / development",
+    "Residential project",
+    "Public / private project",
+    "Other"
+  ]
+},
+
+"indicators": {
+  "collapseTitle": "Key Indicators",
+  "collapseHint": "View indicators"
+}
+
+}
