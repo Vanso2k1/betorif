@@ -150,7 +150,7 @@ function ProcessBlock({ H, t, L }: any) {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.05 }}
-            className="relative h-full min-h-[500px] rounded-[3rem] bg-slate-900 border border-white/10 overflow-hidden p-12 flex flex-col justify-center"
+            className="relative h-full min-h-[300px] md:min-h-[500px] rounded-[3rem] bg-slate-900 border border-white/10 overflow-hidden p-6 md:p-12 flex flex-col justify-center"
           >
             <div className="absolute inset-0 opacity-20" 
                  style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
@@ -271,7 +271,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
         </div>
 
         <div className={`${CONTAINER} relative z-10 w-full`}>
-          <div className="grid grid-cols-12 gap-12 items-center">
+          <div className="grid grid-cols-12 gap-4 md:gap-12 items-center">
             
             {/* Left: Branding & Intent */}
             <div className="col-span-12 lg:col-span-7 space-y-8">
@@ -313,7 +313,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
               </motion.div>
 
               {/* Quick Gauges */}
-              <div className="pt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="pt-12 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4">
                 <StatCard k="Fondation" v="2004" />
                 <StatCard k="Capacité" v="120" suffix="m³/h" />
                 <StatCard k="Portée" v="42" suffix="m" />
