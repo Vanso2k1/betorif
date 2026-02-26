@@ -109,7 +109,7 @@ export default function Navbar() {
               aria-label="BETORIF Home"
             >
               <Image
-                src="/images/logo.svg"
+                src="/images/logo.png"
                 alt="BETORIF"
                 width={50}
                 height={50}
