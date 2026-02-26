@@ -244,7 +244,7 @@ export default function AboutPage() {
               {A?.hero?.badge ?? "À PROPOS"}
             </p>
             <h1 className="font-display mt-2 text-3xl md:text-5xl font-semibold tracking-tight text-white">
-              {A?.hero?.title ?? "BETORIF — Notre objectif : votre satisfaction"}
+              {A?.hero?.title ?? "BETORIF Notre objectif : votre satisfaction"}
             </h1>
             <p className="mt-4 max-w-2xl text-sm md:text-base text-white/75 leading-relaxed">
               {A?.hero?.subtitle ??
@@ -333,118 +333,118 @@ export default function AboutPage() {
       {/* PRESENTATION ENTREPRISE */}
       <section className="mt-8">
         <div className="mx-auto max-w-5xl">
-        <div className="bg-slate-950 border border-white/10 rounded-3xl p-10 shadow-sm">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-6">
-            <div>
-              <h3 className="text-3xl font-bold text-orange-500">
-                {A?.brochure?.title ?? "Présentation de l’entreprise"}
-              </h3>
-              <p className="text-white/75 mt-3 max-w-xl">
-                {A?.brochure?.text ??
-                  "Consultez notre brochure officielle pour découvrir nos services, équipements et références."}
-              </p>
-            </div>
+          <div className="bg-slate-950 border border-white/10 rounded-3xl p-10 shadow-sm">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-6">
+              <div>
+                <h3 className="text-3xl font-bold text-orange-500">
+                  {A?.brochure?.title ?? "Présentation de l’entreprise"}
+                </h3>
+                <p className="text-white/75 mt-3 max-w-xl">
+                  {A?.brochure?.text ??
+                    "Consultez notre brochure officielle pour découvrir nos services, équipements et références."}
+                </p>
+              </div>
 
-            <a
-              href="https://drive.google.com/file/d/1mj-Xlu_79lUDme2PQQvQWu00gKQVRqFg/view"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 text-slate-950 font-semibold hover:bg-orange-400 transition"
-            >
-              {A?.brochure?.button ?? "Ouvrir dans Google Drive"}
-            </a>
-          </div>
+              <a
+                href="https://drive.google.com/file/d/1mj-Xlu_79lUDme2PQQvQWu00gKQVRqFg/view"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 text-slate-950 font-semibold hover:bg-orange-400 transition"
+              >
+                {A?.brochure?.button ?? "Ouvrir dans Google Drive"}
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CHARTS */}
-<section className="bg-slate-50">
-  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-    <Reveal>
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <p className="text-xs font-semibold tracking-wider text-orange-600">
-            {A?.indicators?.badge ?? "INDICATEURS"}
-          </p>
-          <h2 className="font-display mt-2 text-2xl md:text-3xl font-semibold tracking-tight text-slate-900">
-            {A?.indicators?.title ?? "Effectif & production"}
-          </h2>
-          <p className="mt-2 text-sm text-slate-600">
-            {A?.indicators?.subtitle ?? "Repères de capacité (données internes)."}
-          </p>
-        </div>
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <Reveal>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="text-xs font-semibold tracking-wider text-orange-600">
+                  {A?.indicators?.badge ?? "INDICATEURS"}
+                </p>
+                <h2 className="font-display mt-2 text-2xl md:text-3xl font-semibold tracking-tight text-slate-900">
+                  {A?.indicators?.title ?? "Effectif & production"}
+                </h2>
+                <p className="mt-2 text-sm text-slate-600">
+                  {A?.indicators?.subtitle ?? "Repères de capacité (données internes)."}
+                </p>
+              </div>
 
-        <Link
-          href={L("/contact")}
-          className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
-        >
-          {A?.indicators?.quoteCta ?? "Demander un devis →"}
-        </Link>
-      </div>
-    </Reveal>
+              <Link
+                href={L("/contact")}
+                className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
+              >
+                {A?.indicators?.quoteCta ?? "Demander un devis →"}
+              </Link>
+            </div>
+          </Reveal>
 
-    {/* Collapse ONLY for mobile, always open on md+ */}
-    <div className="mt-10">
-      <MobileCollapse
-        title={A?.indicators?.collapseTitle ?? (A?.indicators?.title ?? "Effectif & production")}
-        subtitle={A?.indicators?.collapseHint ?? "Voir les indicateurs"}
-        defaultOpen={false}
-      >
-        <div className="grid grid-cols-12 gap-6">
-          <div className="col-span-12 lg:col-span-5">
-            <Reveal delay={0.06}>
-              <div className="rounded-3xl border border-white/10 bg-slate-950 p-8 shadow-sm">
-                <div className="font-display text-lg font-semibold text-white">
-                  {A?.indicators?.staffTitle ?? "Nombre d’effectif"}
+          {/* Collapse ONLY for mobile, always open on md+ */}
+          <div className="mt-10">
+            <MobileCollapse
+              title={A?.indicators?.collapseTitle ?? (A?.indicators?.title ?? "Effectif & production")}
+              subtitle={A?.indicators?.collapseHint ?? "Voir les indicateurs"}
+              defaultOpen={false}
+            >
+              <div className="grid grid-cols-12 gap-6">
+                <div className="col-span-12 lg:col-span-5">
+                  <Reveal delay={0.06}>
+                    <div className="rounded-3xl border border-white/10 bg-slate-950 p-8 shadow-sm">
+                      <div className="font-display text-lg font-semibold text-white">
+                        {A?.indicators?.staffTitle ?? "Nombre d’effectif"}
+                      </div>
+                      <div className="mt-2 text-sm text-white/70">
+                        {A?.indicators?.staffSubtitle ?? "Évolution annuelle."}
+                      </div>
+                      <div className="mt-6 grid gap-3">
+                        {effectif.map((e) => (
+                          <MiniBar
+                            key={e.year}
+                            label={e.year}
+                            value={e.val}
+                            max={maxEffectif}
+                            locale={lang}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  </Reveal>
                 </div>
-                <div className="mt-2 text-sm text-white/70">
-                  {A?.indicators?.staffSubtitle ?? "Évolution annuelle."}
-                </div>
-                <div className="mt-6 grid gap-3">
-                  {effectif.map((e) => (
-                    <MiniBar
-                      key={e.year}
-                      label={e.year}
-                      value={e.val}
-                      max={maxEffectif}
-                      locale={lang}
-                    />
-                  ))}
+
+                <div className="col-span-12 lg:col-span-7">
+                  <Reveal delay={0.1}>
+                    <div className="rounded-3xl border border-white/10 bg-slate-950 p-8 shadow-sm">
+                      <div className="font-display text-lg font-semibold text-white">
+                        {A?.indicators?.productionTitle ?? "Chiffre de production (m³)"}
+                      </div>
+                      <div className="mt-2 text-sm text-white/70">
+                        {A?.indicators?.productionSubtitle ?? "Historique (2014 → 2025)."}
+                      </div>
+                      <div className="mt-6 grid gap-3">
+                        {production.map((p) => (
+                          <MiniBar
+                            key={p.year}
+                            label={p.year}
+                            value={Math.round(p.val)}
+                            max={maxProd}
+                            suffix={A?.indicators?.productionSuffix ?? " m³"}
+                            locale={lang}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  </Reveal>
                 </div>
               </div>
-            </Reveal>
-          </div>
-
-          <div className="col-span-12 lg:col-span-7">
-            <Reveal delay={0.1}>
-              <div className="rounded-3xl border border-white/10 bg-slate-950 p-8 shadow-sm">
-                <div className="font-display text-lg font-semibold text-white">
-                  {A?.indicators?.productionTitle ?? "Chiffre de production (m³)"}
-                </div>
-                <div className="mt-2 text-sm text-white/70">
-                  {A?.indicators?.productionSubtitle ?? "Historique (2014 → 2025)."}
-                </div>
-                <div className="mt-6 grid gap-3">
-                  {production.map((p) => (
-                    <MiniBar
-                      key={p.year}
-                      label={p.year}
-                      value={Math.round(p.val)}
-                      max={maxProd}
-                      suffix={A?.indicators?.productionSuffix ?? " m³"}
-                      locale={lang}
-                    />
-                  ))}
-                </div>
-              </div>
-            </Reveal>
+            </MobileCollapse>
           </div>
         </div>
-      </MobileCollapse>
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* MEANS */}
@@ -567,55 +567,55 @@ export default function AboutPage() {
 
       {/* FINAL CTA */}
       <section className="bg-slate-50 overflow-x-hidden">
-  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-    <Reveal>
-      <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-950 px-6 py-10 md:p-12 shadow-sm">
-        
-        {/* Blur circle (hidden on mobile) */}
-        <div className="hidden md:block absolute -right-28 -top-28 h-80 w-80 rounded-full bg-orange-500/20 blur-3xl" />
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <Reveal>
+            <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-950 px-6 py-10 md:p-12 shadow-sm">
 
-        <div className="relative grid grid-cols-12 items-center gap-8 md:gap-10">
-          
-          <div className="col-span-12 lg:col-span-8">
-            <p className="text-xs font-semibold tracking-wider text-orange-300">
-              {A?.finalCta?.badge ?? "DEVIS"}
-            </p>
+              {/* Blur circle (hidden on mobile) */}
+              <div className="hidden md:block absolute -right-28 -top-28 h-80 w-80 rounded-full bg-orange-500/20 blur-3xl" />
 
-            <h2 className="font-display mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-white">
-              {A?.finalCta?.title ?? "Parlons de votre chantier."}
-            </h2>
+              <div className="relative grid grid-cols-12 items-center gap-8 md:gap-10">
 
-            <p className="mt-4 max-w-xl text-white/75 leading-relaxed">
-              {A?.finalCta?.subtitle ??
-                "Ville, volume estimé, date souhaitée et contraintes d’accès — on vous répond rapidement."}
-            </p>
-          </div>
+                <div className="col-span-12 lg:col-span-8">
+                  <p className="text-xs font-semibold tracking-wider text-orange-300">
+                    {A?.finalCta?.badge ?? "DEVIS"}
+                  </p>
 
-          <div className="col-span-12 lg:col-span-4 flex flex-col gap-3">
-            <Link
-              href={L("/contact")}
-              className="inline-flex items-center justify-center rounded-2xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-600"
-            >
-              {A?.finalCta?.ctaQuote ?? "Demander un devis"}
-            </Link>
+                  <h2 className="font-display mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-white">
+                    {A?.finalCta?.title ?? "Parlons de votre chantier."}
+                  </h2>
 
-            <a
-              href="https://wa.me/212665293314"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-white/15"
-            >
-              {A?.finalCta?.ctaWhatsapp ?? t?.nav?.whatsapp ?? "WhatsApp"}
-            </a>
-          </div>
+                  <p className="mt-4 max-w-xl text-white/75 leading-relaxed">
+                    {A?.finalCta?.subtitle ??
+                      "Ville, volume estimé, date souhaitée et contraintes d’accès — on vous répond rapidement."}
+                  </p>
+                </div>
 
+                <div className="col-span-12 lg:col-span-4 flex flex-col gap-3">
+                  <Link
+                    href={L("/contact")}
+                    className="inline-flex items-center justify-center rounded-2xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-600"
+                  >
+                    {A?.finalCta?.ctaQuote ?? "Demander un devis"}
+                  </Link>
+
+                  <a
+                    href="https://wa.me/212665293314"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-white/15"
+                  >
+                    {A?.finalCta?.ctaWhatsapp ?? t?.nav?.whatsapp ?? "WhatsApp"}
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </Reveal>
         </div>
-      </div>
-    </Reveal>
-  </div>
-</section>
+      </section>
 
-{/* SECTION 7: INDUSTRIAL FOOTER */}
+      {/* SECTION 7: INDUSTRIAL FOOTER */}
       <footer className="bg-slate-950 pt-24 pb-12 border-t border-white/5">
         <div className={CONTAINER}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 mb-20">
@@ -689,12 +689,12 @@ export default function AboutPage() {
               © {new Date().getFullYear()} BETORIF SARL. TOUS DROITS RÉSERVÉS.
             </p>
             <p className="text-slate-500 text-xs font-medium flex items-center gap-2">
-              CONCEPTION PAR <span className="text-white font-black italic">DESIGNER.CO</span>
+              MADE BY <a href="https://www.kaeynadigital.com" target="_blank" rel="noreferrer" className="text-white font-black italic hover:text-orange-500 transition-colors">Kaeynadigital.com</a>
             </p>
           </div>
         </div>
       </footer>
-      
+
     </main>
   );
 }

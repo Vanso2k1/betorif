@@ -446,84 +446,84 @@ export default function HowItWorksPage() {
       </section>
 
       {/* SECTION 7: INDUSTRIAL FOOTER */}
-            <footer className="bg-slate-950 pt-24 pb-12 border-t border-white/5">
-              <div className={CONTAINER}>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 mb-20">
-                  {/* Brand Column */}
-                  <div className="lg:col-span-4 space-y-8">
-                    <div className="text-2xl font-black text-white tracking-tighter flex items-center gap-2">
-                      <div className="h-8 w-8 bg-orange-500 rounded-lg flex items-center justify-center text-sm italic">B</div>
-                      BETORIF<span className="text-orange-500">.</span>
-                    </div>
-                    <p className="text-slate-400 leading-relaxed text-lg">
-                      Expertise en béton prêt à l'emploi depuis 2004. Leader de la construction durable dans la région de Nador.
-                    </p>
-                    <div className="flex gap-4">
-                      {['facebook', 'linkedin', 'instagram'].map(social => (
-                        <div key={social} className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-orange-500 transition-colors cursor-pointer">
-                          <span className="text-[10px] uppercase font-bold">{social.charAt(0)}</span>
-                        </div>
-                      ))}
-                    </div>
+      <footer className="bg-slate-950 pt-24 pb-12 border-t border-white/5">
+        <div className={CONTAINER}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 mb-20">
+            {/* Brand Column */}
+            <div className="lg:col-span-4 space-y-8">
+              <div className="text-2xl font-black text-white tracking-tighter flex items-center gap-2">
+                <div className="h-8 w-8 bg-orange-500 rounded-lg flex items-center justify-center text-sm italic">B</div>
+                BETORIF<span className="text-orange-500">.</span>
+              </div>
+              <p className="text-slate-400 leading-relaxed text-lg">
+                Expertise en béton prêt à l'emploi depuis 2004. Leader de la construction durable dans la région de Nador.
+              </p>
+              <div className="flex gap-4">
+                {['facebook', 'linkedin', 'instagram'].map(social => (
+                  <div key={social} className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-orange-500 transition-colors cursor-pointer">
+                    <span className="text-[10px] uppercase font-bold">{social.charAt(0)}</span>
                   </div>
-      
-                  {/* Links Columns */}
-                  <div className="lg:col-span-2 space-y-6">
-                    <h5 className="text-white font-bold uppercase tracking-widest text-xs">Solutions</h5>
-                    <ul className="space-y-4 text-slate-400 font-medium">
-                      <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Béton Standard</Link></li>
-                      <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Pompage</Link></li>
-                      <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Génie Civil</Link></li>
-                      <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Laboratoire</Link></li>
-                    </ul>
-                  </div>
-      
-                  <div className="lg:col-span-2 space-y-6">
-                    <h5 className="text-white font-bold uppercase tracking-widest text-xs">Société</h5>
-                    <ul className="space-y-4 text-slate-400 font-medium">
-                      <li><Link href={L("/about")} className="hover:text-orange-500 transition-colors">À Propos</Link></li>
-                      <li><Link href={L("/careers")} className="hover:text-orange-500 transition-colors">Recrutement</Link></li>
-                      <li><Link href={L("/legal")} className="hover:text-orange-500 transition-colors">Mentions Légales</Link></li>
-                      <li><Link href={L("/contact")} className="hover:text-orange-500 transition-colors">Contact</Link></li>
-                    </ul>
-                  </div>
-      
-                  {/* Contact Info Column */}
-                  <div className="lg:col-span-4 space-y-6">
-                    <h5 className="text-white font-bold uppercase tracking-widest text-xs">Siège Social</h5>
-                    <div className="space-y-4">
-                      <div className="flex gap-4">
-                        <div className="shrink-0 text-orange-500 mt-1">📍</div>
-                        <p className="text-slate-400 text-sm leading-relaxed font-medium">
-                          Zone Industrielle Selouane,<br /> BP 124, 62700 Nador, Maroc.
-                        </p>
-                      </div>
-                      <div className="flex gap-4">
-                        <div className="shrink-0 text-orange-500 mt-1">📞</div>
-                        <p className="text-slate-400 text-sm font-bold">
-                          +212 536 60 00 00 / +212 661 00 00 00
-                        </p>
-                      </div>
-                      <div className="flex gap-4">
-                        <div className="shrink-0 text-orange-500 mt-1">✉️</div>
-                        <p className="text-slate-400 text-sm font-bold">
-                          contact@betorif.com
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between gap-6">
-                  <p className="text-slate-500 text-xs font-medium uppercase tracking-[0.2em]">
-                    © {new Date().getFullYear()} BETORIF SARL. TOUS DROITS RÉSERVÉS.
+                ))}
+              </div>
+            </div>
+
+            {/* Links Columns */}
+            <div className="lg:col-span-2 space-y-6">
+              <h5 className="text-white font-bold uppercase tracking-widest text-xs">Solutions</h5>
+              <ul className="space-y-4 text-slate-400 font-medium">
+                <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Béton Standard</Link></li>
+                <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Pompage</Link></li>
+                <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Génie Civil</Link></li>
+                <li><Link href={L("/services")} className="hover:text-orange-500 transition-colors">Laboratoire</Link></li>
+              </ul>
+            </div>
+
+            <div className="lg:col-span-2 space-y-6">
+              <h5 className="text-white font-bold uppercase tracking-widest text-xs">Société</h5>
+              <ul className="space-y-4 text-slate-400 font-medium">
+                <li><Link href={L("/about")} className="hover:text-orange-500 transition-colors">À Propos</Link></li>
+                <li><Link href={L("/careers")} className="hover:text-orange-500 transition-colors">Recrutement</Link></li>
+                <li><Link href={L("/legal")} className="hover:text-orange-500 transition-colors">Mentions Légales</Link></li>
+                <li><Link href={L("/contact")} className="hover:text-orange-500 transition-colors">Contact</Link></li>
+              </ul>
+            </div>
+
+            {/* Contact Info Column */}
+            <div className="lg:col-span-4 space-y-6">
+              <h5 className="text-white font-bold uppercase tracking-widest text-xs">Siège Social</h5>
+              <div className="space-y-4">
+                <div className="flex gap-4">
+                  <div className="shrink-0 text-orange-500 mt-1">📍</div>
+                  <p className="text-slate-400 text-sm leading-relaxed font-medium">
+                    Zone Industrielle Selouane,<br /> BP 124, 62700 Nador, Maroc.
                   </p>
-                  <p className="text-slate-500 text-xs font-medium flex items-center gap-2">
-                    CONCEPTION PAR <span className="text-white font-black italic">DESIGNER.CO</span>
+                </div>
+                <div className="flex gap-4">
+                  <div className="shrink-0 text-orange-500 mt-1">📞</div>
+                  <p className="text-slate-400 text-sm font-bold">
+                    +212 536 60 00 00 / +212 661 00 00 00
+                  </p>
+                </div>
+                <div className="flex gap-4">
+                  <div className="shrink-0 text-orange-500 mt-1">✉️</div>
+                  <p className="text-slate-400 text-sm font-bold">
+                    contact@betorif.com
                   </p>
                 </div>
               </div>
-            </footer>
+            </div>
+          </div>
+
+          <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between gap-6">
+            <p className="text-slate-500 text-xs font-medium uppercase tracking-[0.2em]">
+              © {new Date().getFullYear()} BETORIF SARL. TOUS DROITS RÉSERVÉS.
+            </p>
+            <p className="text-slate-500 text-xs font-medium flex items-center gap-2">
+              MADE BY <a href="https://www.kaeynadigital.com" target="_blank" rel="noreferrer" className="text-white font-black italic hover:text-orange-500 transition-colors">Kaeynadigital.com</a>
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

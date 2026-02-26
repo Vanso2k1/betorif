@@ -10,9 +10,9 @@ import { getDictionary, type Lang } from "@/i18n/getDictionary";
  * Senior Dev Tip: Centralizing these ensures consistency across 1500+ lines.
  */
 const SLIDES = [
-  "/images/hero.png", 
-  "/images/hero2.png", 
-  "/images/hero4.png", 
+  "/images/hero.png",
+  "/images/hero2.png",
+  "/images/hero4.png",
   "/images/hero6.png"
 ];
 
@@ -77,7 +77,7 @@ function SectionHeading({ tag, title, subtitle, dark = false }: { tag: string; t
  */
 function StatCard({ k, v, suffix }: { k: string; v: string; suffix?: string }) {
   return (
-    <motion.div 
+    <motion.div
       variants={FADE_UP}
       whileHover={{ y: -5 }}
       className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md transition-all hover:bg-white/[0.08] hover:border-orange-500/30"
@@ -113,11 +113,10 @@ function ProcessBlock({ H, t, L }: any) {
           <button
             key={idx}
             onClick={() => setActive(idx)}
-            className={`group w-full relative text-left p-6 rounded-3xl border transition-all duration-500 ${
-              active === idx 
-              ? "bg-slate-950 border-orange-500/50 shadow-2xl" 
+            className={`group w-full relative text-left p-6 rounded-3xl border transition-all duration-500 ${active === idx
+              ? "bg-slate-950 border-orange-500/50 shadow-2xl"
               : "bg-white border-slate-200 hover:border-orange-200"
-            }`}
+              }`}
           >
             <div className="flex items-center gap-6">
               <span className={`font-mono text-4xl font-black ${active === idx ? "text-orange-500" : "text-slate-200 group-hover:text-orange-200"}`}>
@@ -133,7 +132,7 @@ function ProcessBlock({ H, t, L }: any) {
               </div>
             </div>
             {active === idx && (
-              <motion.div 
+              <motion.div
                 layoutId="activeGlow"
                 className="absolute inset-0 rounded-3xl bg-orange-500/5 pointer-events-none"
               />
@@ -152,9 +151,9 @@ function ProcessBlock({ H, t, L }: any) {
             exit={{ opacity: 0, scale: 1.05 }}
             className="relative h-full min-h-[300px] md:min-h-[500px] rounded-[3rem] bg-slate-900 border border-white/10 overflow-hidden p-6 md:p-12 flex flex-col justify-center"
           >
-            <div className="absolute inset-0 opacity-20" 
-                 style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
-            
+            <div className="absolute inset-0 opacity-20"
+              style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
+
             <Badge className="mb-6 w-fit">{H?.process?.sys ?? "Système Opérationnel"}</Badge>
             <h3 className="text-5xl font-bold text-white tracking-tight mb-6">
               {steps[active]?.t}
@@ -182,7 +181,7 @@ function ProcessBlock({ H, t, L }: any) {
 const Icons = {
   Mixer: () => (
     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
     </svg>
   ),
   Logistics: () => (
@@ -211,7 +210,7 @@ export default function HomePage() {
     return () => window.clearInterval(id);
   }, [paused]);
 
-  
+
 
   const H = t?.home;
 
@@ -226,28 +225,28 @@ export default function HomePage() {
 
   const [isMobile, setIsMobile] = useState(false);
 
-useEffect(() => {
-  const mq = window.matchMedia("(max-width: 767px)"); // < md
-  const update = () => setIsMobile(mq.matches);
-  update();
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 767px)"); // < md
+    const update = () => setIsMobile(mq.matches);
+    update();
 
-  if (mq.addEventListener) mq.addEventListener("change", update);
-  else mq.addListener(update);
+    if (mq.addEventListener) mq.addEventListener("change", update);
+    else mq.addListener(update);
 
-  return () => {
-    if (mq.removeEventListener) mq.removeEventListener("change", update);
-    else mq.removeListener(update);
-  };
-}, []);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener("change", update);
+      else mq.removeListener(update);
+    };
+  }, []);
 
-const slides = isMobile ? SLIDES_MOBILE : SLIDES;
+  const slides = isMobile ? SLIDES_MOBILE : SLIDES;
 
   if (!t) return <div className="min-h-screen bg-slate-950" />; // Prevent flash
 
   return (
     <main className="bg-white text-slate-900 selection:bg-orange-500/30">
       {/* SECTION 1: CINEMATIC HERO */}
-      <section 
+      <section
         className="relative min-h-[90vh] flex items-center overflow-hidden bg-slate-950"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
@@ -265,21 +264,21 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
               className="absolute inset-0 h-full w-full object-cover"
             />
           </AnimatePresence>
-          
+
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/40 to-slate-950" />
           <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20" />
         </div>
 
         <div className={`${CONTAINER} relative z-10 w-full`}>
           <div className="grid grid-cols-12 gap-4 md:gap-12 items-center">
-            
+
             {/* Left: Branding & Intent */}
             <div className="col-span-12 lg:col-span-7 space-y-8">
               <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
                 <Badge>{H?.pill ?? "Expertise Industrielle Certifiée"}</Badge>
               </motion.div>
 
-              <motion.h1 
+              <motion.h1
                 className="font-display text-5xl md:text-8xl font-black text-white leading-[0.95] tracking-tighter"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -289,7 +288,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
                 <span className="block text-orange-500"> {H?.heroTitleB ?? "Performance"}</span>
               </motion.h1>
 
-              <motion.p 
+              <motion.p
                 className="max-w-xl text-xl text-slate-400 leading-relaxed font-medium"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -298,7 +297,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
                 {H?.heroDesc ?? "Leader régional dans la production de béton prêt à l'emploi. Précision logistique et résistance structurelle pour vos grands chantiers."}
               </motion.p>
 
-              <motion.div 
+              <motion.div
                 className="flex flex-wrap gap-4 pt-4"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -322,7 +321,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
             </div>
 
             {/* Right: The Digital Report Card */}
-            <motion.div 
+            <motion.div
               className="col-span-12 lg:col-span-5"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -352,10 +351,10 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
 
                   <div className="mt-8 space-y-3">
                     <Link href={L("/contact")} className="w-full h-14 inline-flex items-center justify-center rounded-xl bg-white text-slate-950 font-black text-sm uppercase tracking-tighter hover:bg-orange-500 hover:text-white transition-all">
-                       {H?.ctaQuote ?? "Demander un devis"}
+                      {H?.ctaQuote ?? "Demander un devis"}
                     </Link>
                     <p className="text-center text-[10px] text-slate-500 font-bold uppercase tracking-widest pt-2">
-                      {H?.report?.availability?? "Disponibilité 24/7 pour projets structurants"}
+                      {H?.report?.availability ?? "Disponibilité 24/7 pour projets structurants"}
                     </p>
                   </div>
                 </div>
@@ -368,19 +367,24 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
       {/* SECTION 2: THE LOGO ENGINE (MARQUEE) */}
       <section className="py-12 border-b border-slate-100 bg-white">
         <div className={CONTAINER}>
-          <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 py-6">
             <div className="shrink-0 text-center md:text-left">
-              <div className="text-[10px] font-black text-orange-600 tracking-[0.3em] uppercase mb-1">{H?.refs?.tag?? "Partenaires"}</div>
-              <h4 className="text-lg font-bold text-slate-900">{H?.refs?.title?? "Ils bâtissent avec nous"}</h4>
+              <div className="text-[10px] font-black text-orange-600 tracking-[0.3em] uppercase mb-1">{H?.refs?.tag ?? "Partenaires"}</div>
+              <h4 className="text-lg font-bold text-slate-900">{H?.refs?.title ?? "Ils bâtissent avec nous"}</h4>
             </div>
-            
+
             <div className="flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
-              <div className="flex gap-20 animate-marquee whitespace-nowrap items-center">
-                {/* LOGO MAPPING - You can add more here */}
+              <div className="flex gap-12 animate-marquee whitespace-nowrap items-center">
                 {[...Array(2)].map((_, outer) => (
                   <React.Fragment key={outer}>
-                    {['barcelo', 'iberostar', 'carrefour', 'marjane', 'omrane'].map((partner) => (
-                      <img key={partner} src={`/images/partners/${partner}.png`} alt={partner} className="h-10 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 cursor-pointer" />
+                    {['barcelo', 'iberostar', 'marjane', 'marina', 'carrefour', 'houar', 'lcwaikiki', 'zniber', 'fadesa', 'marwa', 'belive'].map((partner) => (
+                      <div key={partner} className="flex items-center justify-center w-32 h-16 shrink-0">
+                        <img
+                          src={`/images/partners/${partner}.png`}
+                          alt={partner}
+                          className="max-h-12 max-w-[120px] w-28 h-12 object-contain grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 cursor-pointer"
+                        />
+                      </div>
                     ))}
                   </React.Fragment>
                 ))}
@@ -400,10 +404,10 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
         <div className={CONTAINER}>
           <Reveal>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
-              <SectionHeading 
-                tag={H?.process?.tag ?? "LOGISTIQUE"} 
-                title={H?.process?.title ?? "Le Parcours Chantier"} 
-                subtitle={H?.process?.subtitle ?? "Une organisation millimétrée pour garantir la fluidité de vos coulages."} 
+              <SectionHeading
+                tag={H?.process?.tag ?? "LOGISTIQUE"}
+                title={H?.process?.title ?? "Le Parcours Chantier"}
+                subtitle={H?.process?.subtitle ?? "Une organisation millimétrée pour garantir la fluidité de vos coulages."}
               />
               <div className="hidden md:block pb-2">
                 <Link href={L("/how-it-works")} className="text-sm font-bold text-orange-600 hover:text-orange-700 transition-colors flex items-center gap-2">
@@ -455,8 +459,8 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
                 icon={<svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>}
                 title={H?.services?.cards?.[2]?.title ?? "Contrôle Qualité Labo"}
                 desc={H?.services?.cards?.[2]?.desc ?? "Écrasement d'éprouvettes et suivi rigoureux de la traçabilité de chaque m³."}
-                ctaPrimary={{ href: L("/contact"), label: H?.services?.cards?.[2]?.ctaOrder ??  "Certificats" }}
-                ctaSecondary={{ href: L("/services"), label: H?.services?.cards?.[2]?.ctaSpecs ??  "Normes" }}
+                ctaPrimary={{ href: L("/contact"), label: H?.services?.cards?.[2]?.ctaOrder ?? "Certificats" }}
+                ctaSecondary={{ href: L("/services"), label: H?.services?.cards?.[2]?.ctaSpecs ?? "Normes" }}
               />
             </Reveal>
           </div>
@@ -465,7 +469,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
             <Reveal delay={0.4}>
               <div className="group relative overflow-hidden rounded-[2.5rem] bg-slate-900 p-10 text-white min-h-[300px] flex flex-col justify-center">
                 <div className="absolute top-0 right-0 p-8 opacity-10">
-                   <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                 </div>
                 <h3 className="text-3xl font-bold mb-4">{H?.services?.optionsTitle ?? "Service de Pompage"}</h3>
                 <p className="text-slate-400 text-lg max-w-md mb-8">
@@ -496,24 +500,24 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
       <section className="py-24 md:py-32 bg-slate-950 relative overflow-hidden">
         {/* Cinematic Flare */}
         <div className="absolute -left-24 top-1/2 -translate-y-1/2 w-96 h-96 bg-orange-500/10 blur-[120px] rounded-full" />
-        
+
         <div className={CONTAINER}>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <div className="lg:col-span-4">
-              <SectionHeading 
-                dark 
-                tag={H?.trust?.tag ?? "CONFIANCE"} 
-                title={H?.trust?.title ?? "La Voix de nos Clients"} 
-                subtitle={H?.trust?.subtitle ?? "Depuis 2004, nous sécurisons les fondations des projets les plus ambitieux de la région."} 
+              <SectionHeading
+                dark
+                tag={H?.trust?.tag ?? "CONFIANCE"}
+                title={H?.trust?.title ?? "La Voix de nos Clients"}
+                subtitle={H?.trust?.subtitle ?? "Depuis 2004, nous sécurisons les fondations des projets les plus ambitieux de la région."}
               />
               <div className="mt-10 flex gap-4">
                 <div className="p-4 rounded-2xl bg-white/5 border border-white/10">
-                   <div className="text-2xl font-bold text-white">4.8/5</div>
-                   <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">{H?.trust?.noteNum ?? "Note Moyenne"}</div>
+                  <div className="text-2xl font-bold text-white">4.8/5</div>
+                  <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">{H?.trust?.noteNum ?? "Note Moyenne"}</div>
                 </div>
                 <div className="p-4 rounded-2xl bg-white/5 border border-white/10">
-                   <div className="text-2xl font-bold text-white">98%</div>
-                   <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">{H?.trust?.noteRate ?? "Fidélité"}</div>
+                  <div className="text-2xl font-bold text-white">98%</div>
+                  <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">{H?.trust?.noteRate ?? "Fidélité"}</div>
                 </div>
               </div>
             </div>
@@ -548,9 +552,9 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
         <div className={CONTAINER}>
           <div className="relative overflow-hidden rounded-[3rem] bg-orange-500 p-8 md:p-16 shadow-2xl shadow-orange-500/30">
             {/* Background Texture */}
-            <div className="absolute inset-0 opacity-10 pointer-events-none" 
-                 style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '32px 32px' }} />
-            
+            <div className="absolute inset-0 opacity-10 pointer-events-none"
+              style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '32px 32px' }} />
+
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-8">
                 <h2 className="font-display text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter">
@@ -560,7 +564,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
                   {H?.final?.desc ?? "Ville, volume estimé, date souhaitée — notre équipe logistique revient vers vous avec une planification optimale sous 24h."}
                 </p>
               </div>
-              
+
               <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">
                 <Link href={L("/contact")} className="h-16 inline-flex items-center justify-center px-10 rounded-2xl bg-slate-950 text-white font-bold text-lg hover:bg-slate-900 transition-all hover:scale-105 shadow-xl">
                   {H?.ctaQuote ?? "Demander un devis"}
@@ -648,7 +652,7 @@ const slides = isMobile ? SLIDES_MOBILE : SLIDES;
               © {new Date().getFullYear()} BETORIF SARL. TOUS DROITS RÉSERVÉS.
             </p>
             <p className="text-slate-500 text-xs font-medium flex items-center gap-2">
-              CONCEPTION PAR <span className="text-white font-black italic">DESIGNER.CO</span>
+              MADE BY <a href="https://www.kaeynadigital.com" target="_blank" rel="noreferrer" className="text-white font-black italic hover:text-orange-500 transition-colors">Kaeynadigital.com</a>
             </p>
           </div>
         </div>
