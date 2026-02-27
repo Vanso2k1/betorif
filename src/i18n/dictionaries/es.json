@@ -35,7 +35,7 @@
         { "k": "Plantas", "v": "2" },
         { "k": "Hormigoneras", "v": "11" },
         { "k": "Bombas", "v": "36m & 42m" },
-        { "k": "Zona", "v": "Nador y región" }
+        { "k": "Zona", "v": "Saidia - Oriental" }
       ]
     },
     "refs": {
@@ -149,7 +149,7 @@
         { "k": "Actividad", "v": "Fabricación de todo tipo de hormigón" },
         { "k": "Fecha de creación", "v": "24/05/2004" },
         { "k": "Capital social", "v": "1.500.000,00 MAD" },
-        { "k": "Gerente", "v": "Sr. ALLACHE Abderrachid" },
+        { "k": "Propietario", "v": "Sr. ALLACHE Abderrachid" },
         { "k": "Sede", "v": "Avenue Hassan II, edificio BMCE BANK, 5ª planta Nº17, Nador" },
         { "k": "Teléfono", "v": "+212 6 61 30 87 88 / +212 6 65 29 33 14" },
         { "k": "Email", "v": "info@betorif.ma" },

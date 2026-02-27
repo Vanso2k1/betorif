@@ -335,7 +335,7 @@ export default function HomePage() {
                       <div className="text-[10px] font-black text-orange-500 tracking-[0.3em] uppercase mb-1">{H?.report?.label ?? "Fiche Technique"}</div>
                       <h3 className="text-2xl font-bold text-white tracking-tight">{H?.report?.title ?? "Status Opérationnel"}</h3>
                     </div>
-                    <div className="bg-orange-500/10 p-3 rounded-2xl border border-orange-500/20">
+                    <div className="bg-orange-500 p-3 rounded-2xl border border-white">
                       <Icons.Mixer />
                     </div>
                   </div>
@@ -422,7 +422,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 4: INDUSTRIAL SERVICES GRID */}
-      <section className="py-24 md:py-32 bg-white">
+      <section className="py-24 md:py-32 bg-gray-100">
         <div className={CONTAINER}>
           <Reveal>
             <div className="text-center flex flex-col items-center mb-20">
@@ -456,7 +456,9 @@ export default function HomePage() {
 
             <Reveal delay={0.3}>
               <ServiceCard
-                icon={<svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>}
+                icon={<svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>}
                 title={H?.services?.cards?.[2]?.title ?? "Contrôle Qualité Labo"}
                 desc={H?.services?.cards?.[2]?.desc ?? "Écrasement d'éprouvettes et suivi rigoureux de la traçabilité de chaque m³."}
                 ctaPrimary={{ href: L("/contact"), label: H?.services?.cards?.[2]?.ctaOrder ?? "Certificats" }}
@@ -560,7 +562,7 @@ export default function HomePage() {
                 <h2 className="font-display text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter">
                   {H?.final?.title ?? "Prêt à couler votre projet ?"}
                 </h2>
-                <p className="mt-6 text-xl text-orange-950/80 font-medium max-w-2xl leading-relaxed">
+                <p className="mt-6 text-xl text-white font-medium max-w-2xl leading-relaxed">
                   {H?.final?.desc ?? "Ville, volume estimé, date souhaitée — notre équipe logistique revient vers vous avec une planification optimale sous 24h."}
                 </p>
               </div>
@@ -591,13 +593,6 @@ export default function HomePage() {
               <p className="text-slate-400 leading-relaxed text-lg">
                 Expertise en béton prêt à l'emploi depuis 2004. Leader de la construction durable dans la région de Nador.
               </p>
-              <div className="flex gap-4">
-                {['facebook', 'linkedin', 'instagram'].map(social => (
-                  <div key={social} className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-orange-500 transition-colors cursor-pointer">
-                    <span className="text-[10px] uppercase font-bold">{social.charAt(0)}</span>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Links Columns */}
@@ -634,7 +629,7 @@ export default function HomePage() {
                 <div className="flex gap-4">
                   <div className="shrink-0 text-orange-500 mt-1">📞</div>
                   <p className="text-slate-400 text-sm font-bold">
-                    +212 536 60 00 00 / +212 661 00 00 00
+                    +212 661-100715 / +212 661-721630
                   </p>
                 </div>
                 <div className="flex gap-4">
@@ -666,7 +661,7 @@ export default function HomePage() {
 function ServiceCard({ icon, title, desc, ctaPrimary, ctaSecondary }: any) {
   return (
     <div className="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/50 hover:-translate-y-2">
-      <div className="w-16 h-16 rounded-2xl bg-orange-500/10 flex items-center justify-center text-orange-600 mb-8 group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">
+      <div className="w-16 h-16 rounded-2xl bg-orange-500 flex items-center justify-center text-slate-950 mb-8 group-hover:bg-slate-950 group-hover:text-orange-500 transition-all duration-500">
         {icon}
       </div>
       <h3 className="text-2xl font-bold text-slate-900 mb-4">{title}</h3>

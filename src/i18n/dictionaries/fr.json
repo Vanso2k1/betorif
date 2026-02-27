@@ -14,7 +14,7 @@
     "pill": "BETORIF SARL • Béton prêt à l’emploi",
     "heroTitleA": "Béton prêt à l’emploi",
     "heroTitleB": "pour vos chantiers",
-    "heroDesc": "Production régulière, livraison planifiée et suivi chantier clair. Un partenaire fiable à Nador et dans la région.",
+    "heroDesc": "Production régulière, livraison planifiée et suivi chantier clair. Un partenaire fiable à Saidia - Oriental.",
     "ctaQuote": "Demander un devis",
     "ctaHow": "Comment ça marche",
 
@@ -37,7 +37,7 @@
         { "k": "Centrales", "v": "2" },
         { "k": "Bétonnières", "v": "11" },
         { "k": "Pompes", "v": "36m & 42m" },
-        { "k": "Zone", "v": "Nador & région" }
+        { "k": "Zone", "v": "Saidia - ORIENTAL" }
       ]
     },
 
@@ -140,7 +140,7 @@
       "badge": "À PROPOS",
       "title": "BETORIF Notre objectif : votre satisfaction",
       "subtitle": "Une entreprise spécialisée dans le béton prêt à l’emploi, avec des moyens humains et matériels pour sécuriser la qualité et le respect des délais chantier.",
-      "pills": ["Depuis 2004", "Nador & région", "Livraison planifiée", "Support chantier"],
+      "pills": ["Depuis 2004", "Saidia - ORIENTAL", "Livraison planifiée", "Support chantier"],
       "ctaQuote": "Demander un devis",
       "ctaWhatsapp": "WhatsApp",
       "heroAlt": "À propos BETORIF"
@@ -148,7 +148,7 @@
     "identity": {
       "badge": "FICHE",
       "title": "Identité de l’entreprise",
-      "subtitle": "Informations générales (extrait du dossier de présentation).",
+      "subtitle": "Informations générales.",
       "companyTag": "BETORIF SARL",
       "items": [
         { "k": "Raison sociale", "v": "BETORIF SARL" },
@@ -156,7 +156,7 @@
         { "k": "Activité", "v": "Fabrication de tous type de béton" },
         { "k": "Date de création", "v": "24/05/2004" },
         { "k": "Capital social", "v": "1 500 000,00 DHS" },
-        { "k": "Gérant", "v": "M. ALLACHE Abderrachid" },
+        { "k": "Patron", "v": "M. ALLACHE Abderrachid" },
         { "k": "Siège", "v": "Avenue Hassan II, immeuble BMCE BANK, 5ème étage N°17, Nador" },
         { "k": "Téléphone", "v": "+212 6 61 30 87 88 / +212 6 65 29 33 14" },
         { "k": "Email", "v": "info@betorif.ma" },
@@ -328,7 +328,7 @@
     "phone": "Téléphone",
     "phonePlaceholder": "+212 ...",
     "city": "Ville / Chantier",
-    "cityPlaceholder": "Nador, Selouane...",
+    "cityPlaceholder": "Saidia, Selouane...",
     "type": "Type de chantier",
     "volume": "Volume estimé (m³)",
     "optional": "optionnel",

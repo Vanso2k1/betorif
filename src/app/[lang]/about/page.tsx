@@ -628,13 +628,6 @@ export default function AboutPage() {
               <p className="text-slate-400 leading-relaxed text-lg">
                 Expertise en béton prêt à l'emploi depuis 2004. Leader de la construction durable dans la région de Nador.
               </p>
-              <div className="flex gap-4">
-                {['facebook', 'linkedin', 'instagram'].map(social => (
-                  <div key={social} className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-orange-500 transition-colors cursor-pointer">
-                    <span className="text-[10px] uppercase font-bold">{social.charAt(0)}</span>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Links Columns */}
@@ -671,7 +664,7 @@ export default function AboutPage() {
                 <div className="flex gap-4">
                   <div className="shrink-0 text-orange-500 mt-1">📞</div>
                   <p className="text-slate-400 text-sm font-bold">
-                    +212 536 60 00 00 / +212 661 00 00 00
+                    +212 661-100715 / +212 661-721630
                   </p>
                 </div>
                 <div className="flex gap-4">
